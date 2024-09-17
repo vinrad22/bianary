@@ -11,7 +11,7 @@ import SwiftUI
 struct bianaryApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            BiHex()
         }
     }
 }

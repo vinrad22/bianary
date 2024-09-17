@@ -11,6 +11,8 @@
 		9833FF4B2C99C21B00BB5431 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9833FF4A2C99C21B00BB5431 /* ContentView.swift */; };
 		9833FF4D2C99C21C00BB5431 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9833FF4C2C99C21C00BB5431 /* Assets.xcassets */; };
 		9833FF502C99C21C00BB5431 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9833FF4F2C99C21C00BB5431 /* Preview Assets.xcassets */; };
+		9833FF572C99CB5000BB5431 /* HexDec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9833FF562C99CB5000BB5431 /* HexDec.swift */; };
+		9833FF592C99CB6200BB5431 /* BiHex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9833FF582C99CB6200BB5431 /* BiHex.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		9833FF4A2C99C21B00BB5431 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9833FF4C2C99C21C00BB5431 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9833FF4F2C99C21C00BB5431 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9833FF562C99CB5000BB5431 /* HexDec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexDec.swift; sourceTree = "<group>"; };
+		9833FF582C99CB6200BB5431 /* BiHex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiHex.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				9833FF482C99C21B00BB5431 /* bianaryApp.swift */,
 				9833FF4A2C99C21B00BB5431 /* ContentView.swift */,
+				9833FF562C99CB5000BB5431 /* HexDec.swift */,
+				9833FF582C99CB6200BB5431 /* BiHex.swift */,
 				9833FF4C2C99C21C00BB5431 /* Assets.xcassets */,
 				9833FF4E2C99C21C00BB5431 /* Preview Content */,
 			);
@@ -138,6 +144,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9833FF4B2C99C21B00BB5431 /* ContentView.swift in Sources */,
+				9833FF572C99CB5000BB5431 /* HexDec.swift in Sources */,
+				9833FF592C99CB6200BB5431 /* BiHex.swift in Sources */,
 				9833FF492C99C21B00BB5431 /* bianaryApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
