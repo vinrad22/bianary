@@ -73,17 +73,17 @@ struct BiHex: View {
         }
     }
     func convertNumberDH() {
-        if let numberB = Int(numberBValue, radix: 2) {
-            decimalBValue = String(numberB, radix: 10)
-            binaryBValue = String(numberB, radix: 2)
-            hexBValue = String(numberB, radix: 16)
+        if let number = Int(numberBValue, radix: 2) {
+            decimalBValue = String(number, radix: 10)
+            binaryBValue = String(number, radix: 2)
+            hexBValue = String(number, radix: 16)
         }
     }
     func convertNumberBD() {
-        if let numberB = Int(numberHValue, radix: 16) {
-            decimalHValue = String(numberB, radix: 10)
-            binaryHValue = String(numberB, radix: 2)
-            hexHValue = String(numberB, radix: 16)
+        if let number = Int(numberHValue, radix: 16) {
+            decimalHValue = String(number, radix: 10)
+            binaryHValue = String(number, radix: 2)
+            hexHValue = String(number, radix: 16)
         }
     }
 }
