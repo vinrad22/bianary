@@ -17,6 +17,7 @@ struct BiHex: View {
         VStack {
             Text("Decimal to Binary and Hexadecimal")
                 .font(.system(size: 22))
+                .bold()
             TextField("Enter a number", text: $numberValue)
                 .keyboardType(.numberPad)
                 .textFieldStyle(RoundedBorderTextFieldStyle())
@@ -33,6 +34,7 @@ struct BiHex: View {
             Divider()
             Text("Binary to Decimal and Hexadecimal")
                 .font(.system(size: 22))
+                .bold()
             TextField("Enter a binary", text: $numberBValue)
                 .keyboardType(.numberPad)
                 .textFieldStyle(RoundedBorderTextFieldStyle())
@@ -49,6 +51,7 @@ struct BiHex: View {
             Divider()
             Text("Hexadecimal to Decimal and Binary")
                 .font(.system(size: 22))
+                .bold()
             TextField("Enter a hexadecimal", text: $numberHValue)
                 .keyboardType(.numberPad)
                 .textFieldStyle(RoundedBorderTextFieldStyle())
